@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Exercise 1" icon-name="custom:custom19">
+        <template if:true={showTemplateOne}>
+            <img src={firstImage} />
+            <lightning-button variant="brand" label="Show Tom" title="Primary action" onclick={switchImages} class="slds-m-left_x-small"></lightning-button>
+        </template>
+        <template if:false={showTemplateOne}>
+            <img src={secondImage} />
+            <lightning-button variant="brand" label="Show Jerry" title="Primary action" onclick={switchImages} class="slds-m-left_x-small"></lightning-button>
+        </template>
+    </lightning-card>
+</template>

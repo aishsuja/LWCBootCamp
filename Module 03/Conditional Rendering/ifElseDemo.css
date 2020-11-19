@@ -1,1 +1,14 @@
-
+ /*to show the image*/
+ .SelectedBorderOrgType .markIcon {
+    display: block;
+  }
+  /*to hide the image
+  .NonSelectedBorderOrgType .markIcon {
+    display: none;
+  }
+  .SelectedBorderOrgType .pillLabel1 {
+    font-weight: 300;
+  }
+  .NonSelectedBorderOrgType{
+    font-weight : normal;
+  }*/
