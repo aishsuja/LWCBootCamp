@@ -1,0 +1,20 @@
+<template>
+    <div class="slds-m-around_small" style="display: inline-block"></div>
+    <lightning-card title="Full Calculator" icon-name="custom:custom34">
+        <div class="slds-p-horizontal_small">
+
+            <lightning-input value={firstNumber} name="fnumber" label="First Number" onchange={handleChanges}></lightning-input>
+            <lightning-input value={secondNumber} name="snumber" label="Second Number" onchange={handleChanges}></lightning-input>
+      </div>  
+       <div class="slds-box slds-theme_shade">  
+        <b>Result: </b>  
+        <P>{resultValue}</p>  
+        <lightning-button label="+" onclick={addition}> </lightning-button>  
+        <lightning-button label="*" onclick={multiplication}> </lightning-button>  
+        <lightning-button label="-" onclick={subtraction}> </lightning-button>  
+        <lightning-button label="/" onclick={division}> </lightning-button>  
+       </div>
+     
+    </lightning-card>
+</template>
+
